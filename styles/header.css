@@ -3,7 +3,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: #faebd7;
+    background-color: var(--color-primary-1);
     z-index: 2;
 }
 
@@ -27,13 +27,13 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--color-neutral-9-opacity);
     font-weight: 600;
 }
 
 .nav-item.active a {
-    color: #1d1d1d;
-    border-bottom: 3px solid #ffe120;
+    color: var(--color-neutral-9);
+    border-bottom: 3px solid var(--color-primary-3);
 }
 
 #btn-mobile {

@@ -14,11 +14,11 @@
 
 #cta .title {
     font-size: 4rem;
-    color: #1d1d1d;
+    color: var(--color-neutral-9);
 }
 
 #cta .title span {
-    color: #e9a209;
+    color: var(--color-primary-6);
 }
 
 #cta .description {
@@ -32,14 +32,14 @@
 
 #cta-buttons a {
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--color-neutral-9);
 }
 
 #btn-phone {
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: #ffffff;
+    background-color: var(--color-neutral-0);
     padding: 8px 14px;
     font-weight: 500;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
@@ -66,7 +66,7 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    background-color: #ffe8b4;
+    background-color: var(--color-primary-2);
     border-radius: 30% 40% 0 22%;
     z-index: -1;
     top: 0;
