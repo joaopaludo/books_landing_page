@@ -28,6 +28,10 @@
     overflow: hidden;
 }
 
+.book img {
+    width: 80%;
+}
+
 .book-heart {
     position: absolute;
     background-color: var(--color-primary-6);
